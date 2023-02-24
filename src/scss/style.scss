@@ -1,15 +1,12 @@
 $font-family-header: "Shantell Sans", cursive;
 $font-family-bread: "Roboto", sans-serif;
 
-$font-weight-thin: 100;
-$font-weight-regular: 400;
-$font-weight-bold: 700;
-
 * {
   box-sizing: border-box;
 }
 
 body {
+  background-color: rgb(246, 245, 242);
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -27,7 +24,6 @@ h1,
 h2,
 h3 {
   font-family: $font-family-header;
-  font-weight: $font-weight-bold;
   text-align: center;
 }
 
